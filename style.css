@@ -31,6 +31,9 @@ body {
     top: 20px;
     right: 50px;
 }
+.mobilenav {
+    display: none;
+}
 a {
     text-decoration: none;
 }
@@ -353,6 +356,17 @@ input[type="submit"]:hover {
     body {
         width: 100%;
     }
+    .mobilenav {
+        display: inline-block;
+        margin-left: 100%;
+        margin-top: 28px;
+        height: 30px;
+        width: 190px;
+    }
+
+    .fa-bars {
+        font-size: 30px;
+    }
     .left {
         display: relative;
         left: 40px;
@@ -421,5 +435,15 @@ input[type="submit"]:hover {
     }
     .contme {
         left: 325px;
+    }
+    .fa-bars:hover {
+        scale: 0.95;
+        text-align: center;
+        width: 29px;
+        color: white;
+        padding: 6px;
+        background-color: gray;
+        border: none;
+        border-radius: 50%;
     }
 }
